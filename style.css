@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#ebe5c5;
+    --cor1:#83e1ad;
+    
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: aqua;
+}
+
+body{
+    background-color: blanchedalmond;
+    padding: 50px;
+}
+
+main{
+    background-color: white;
+    padding: 20px;
+}
+
+#container{
+    background-color: blueviolet;
+    padding: 50px;
+}
+
+#container > #conteudo {
+    width: 200px;
+    padding: 10px;
+    background-color: tomato;
+}
+
+#backgroun1{
+    background-color: yellow;
+    padding: 50px;
+}
+
+#backgroun1 > #conteudo {
+    width: 200px;
+    padding: 10px;
+    background-color: violet;
+}
+
+#backgroun2{
+    background-color: yellow;
+    padding: 50px;
+}
+
+#backgroun2 > #conteudo {
+    width: 200px;
+    padding: 10px;
+    background-color: violet;
+}
+
+
+
+
+
+
+
