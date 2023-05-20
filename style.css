@@ -1,13 +1,19 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&display=swap');
+
 :root{
-    --cor0:#ebe5c5;
-    --cor1:#83e1ad;
+    --cor0:#fce6c2;
+    --cor1:#E08700;
+    --cor2: #AD6800;
+    --cor3: #61461D;
+    --cor4: #3D2500;
     
 
-    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-    --fonte-destaque: 'Bebas Neue', cursive;
-    --fonte-android: 'Android', cursive;
+    --fonte-padrao:'Short Stack', cursive;
+    --fonte-destaque:'Nerko One', cursive ;
+  
 }
 
 *{
@@ -16,53 +22,104 @@
 }
 
 header{
-    background-color: aqua;
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor2), var(--cor3));
+    height: 200px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.484);
+}
+
+
+header > h1 {
+    font: normal lighter 3.5em var(--fonte-destaque);
+    text-shadow: 2px 5px 0px rgba(0, 0, 0, 0.267);
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    max-width: 500px;
+    margin: auto;     
+}
+
+header >  p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    color: white;
 }
 
 body{
-    background-color: blanchedalmond;
-    padding: 50px;
+    background-color: var(--cor0);
+    
 }
 
 main{
+    margin: auto;
+    max-width: 900px;
     background-color: white;
-    padding: 20px;
+  
+    
 }
 
 #container{
-    background-color: blueviolet;
-    padding: 50px;
+    padding: 20px;
+
 }
 
-#container > #conteudo {
-    width: 200px;
-    padding: 10px;
-    background-color: tomato;
+#conteudo {
+    display: block;
+    max-width: 400px;
+    font-family: var(--fonte-padrao);
+    line-height: 30px;
+    font-size: 1.2em;
+    padding: 20px;
+   
 }
 
 #backgroun1{
-    background-color: yellow;
-    padding: 50px;
+    height: 400px;
+    background: var(--cor1) url('imagens/background001.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.484);
 }
 
 #backgroun1 > #conteudo {
-    width: 200px;
-    padding: 10px;
+    position: relative;
+    margin-top: 70px;
+    font-family: var(--fonte-padrao);
+    line-height: 30px;
+    font-size: 1.2em;
+    max-width: 300px;
+    min-width: 300px;
+    padding: 20px;
     background-color: violet;
+   
 }
 
 #backgroun2{
+    height: 400px;
     background-color: yellow;
-    padding: 50px;
+    background: var(--cor1) url(imagens/background002.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding: 20px;
+    box-shadow: inset 0px 5px 5px rgba(0, 0, 0, 0.484);
 }
 
 #backgroun2 > #conteudo {
-    width: 200px;
-    padding: 10px;
+    margin-top: 70px;
+    font-family: var(--fonte-padrao);
+    line-height: 30px;
+    font-size: 1.2em;
+    width: 300px;
+    padding: 20px;
     background-color: violet;
 }
 
-
+footer{
+    color: white;
+    background-color: var(--cor2);
+    text-align: center;
+}
 
 
 
