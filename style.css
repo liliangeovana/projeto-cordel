@@ -86,7 +86,7 @@ main{
 }
 
 #background1 {
-    height: 350px;
+    height: 400px;
     padding: 20px;
     background: var(--cor1) url('imagens/background001.jpg') no-repeat right center fixed;
     background-size: cover;
@@ -94,7 +94,7 @@ main{
 }
 
 #background2 {
-    height: 350px;
+    height: 400px;
     padding: 20px;
     background: var(--cor1) url(imagens/background002.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -102,6 +102,7 @@ main{
 }
 
 .texto-background{
+    margin-top: 20px;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.728);
     color: white;
