@@ -34,18 +34,27 @@ header > h1 {
     margin: auto; 
     padding-top: 50px;
     font: normal lighter 3.5em var(--fonte-destaque);
-    text-shadow: 2px 5px 0px rgba(0, 0, 0, 0.267);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
     text-align: center;
     color: white;    
 }
 
-header >  p {
+header > p {
     max-width: 500px;
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     text-align: center;
     color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 body{
@@ -89,7 +98,7 @@ main{
 
 .texto-background{
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.573);
+    background-color: rgba(0, 0, 0, 0.728);
     color: white;
 }
 
@@ -103,5 +112,6 @@ footer > p {
     padding: 5px;
     text-align: center;
     font: normal lighter 1em var(--fonte-destaque);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
     color: white;
 }
